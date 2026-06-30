@@ -20,15 +20,15 @@ jobs:
             
             - name: install packages
               run: npm install
-              working-directory: devboard/frontend
+              working-directory: frontend
 
             - name: linter
               run: npm run lint
-              working-directory: devboard/frontend
+              working-directory: frontend
 
             - name: run tests
               run: npm run test
-              working-directory: devboard/frontend
+              working-directory: frontend
 
 
 
